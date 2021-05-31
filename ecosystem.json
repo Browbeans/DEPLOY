@@ -9,7 +9,7 @@
         "host" : ["188.166.75.251"],
         "ref"  : "origin/main",
         "repo" : "https://github.com/Browbeans/DEPLOY.git",
-        "path" : "~/projekt/DEPLOY",
+        "path" : "/root/projekt/DEPLOY",
         "post-deploy" : "npm install"
        }
     }
