@@ -1,0 +1,16 @@
+{
+    "apps" : [{
+       "name" : "olivers-app",
+       "script" : "server.js"
+    }],
+    "deploy" : {
+      "production" : {
+        "user" : "ubuntu",
+        "host" : ["188.166.75.251"],
+        "ref"  : "origin/main",
+        "repo" : "https://github.com/Browbeans/DEPLOY.git",
+        "path" : "/projekt",
+        "post-deploy" : "npm install"
+       }
+    }
+ }
