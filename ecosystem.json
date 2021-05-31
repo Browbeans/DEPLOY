@@ -10,7 +10,7 @@
         "ref"  : "origin/main",
         "repo" : "https://github.com/Browbeans/DEPLOY.git",
         "path" : "/root/projekt/DEPLOY",
-        "post-deploy" : "npm install"
+        "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json"
        }
     }
  }
